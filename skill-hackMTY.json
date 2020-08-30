@@ -1,0 +1,1663 @@
+{
+  "intents": [
+    {
+      "intent": "Bot_Control_Approve_Response",
+      "examples": [
+        {
+          "text": "Afirmativo."
+        },
+        {
+          "text": "Bien, lo haremos."
+        },
+        {
+          "text": "Brillante respuesta."
+        },
+        {
+          "text": "Buen trabajo."
+        },
+        {
+          "text": "Correcto, es lo que estaba buscando"
+        },
+        {
+          "text": "De acuerdo."
+        },
+        {
+          "text": "Es correcto."
+        },
+        {
+          "text": "Es exactamente lo que estaba pensando."
+        },
+        {
+          "text": "Es exactamente lo que necesitamos."
+        },
+        {
+          "text": "Esta todo perfecto."
+        },
+        {
+          "text": "Excelente respuesta."
+        },
+        {
+          "text": "Excelente trabajo."
+        },
+        {
+          "text": "Gran trabajo."
+        },
+        {
+          "text": "Has sido de gran ayuda"
+        },
+        {
+          "text": "Justo lo que necesitaba."
+        },
+        {
+          "text": "Maravilloso"
+        },
+        {
+          "text": "Muy bien, gracias."
+        },
+        {
+          "text": "Muy bueno."
+        },
+        {
+          "text": "Perfecto"
+        },
+        {
+          "text": "Si, es eso lo que busco."
+        }
+      ],
+      "description": "Acknowledge that the response satisfies a question."
+    },
+    {
+      "intent": "Bot_Control_Change_Subject",
+      "examples": [
+        {
+          "text": "Cambiemos de conversación."
+        },
+        {
+          "text": "Continuamos con otro tema."
+        },
+        {
+          "text": "Hablame de otro tema."
+        },
+        {
+          "text": "Me gustaria que empecemos de nuevo"
+        },
+        {
+          "text": "Podemos cambiar el tema?"
+        },
+        {
+          "text": "Podemos continuar con la otra solicitud?"
+        },
+        {
+          "text": "Podemos hablar de otra cosa?"
+        },
+        {
+          "text": "Puede ayudarme con otra solicitud?"
+        },
+        {
+          "text": "Puede decirme algo sobre ti?"
+        },
+        {
+          "text": "Puedo hacer una solicitud diferente."
+        },
+        {
+          "text": "Que estas haciendo ahora?"
+        },
+        {
+          "text": "Quiero otra solicitud."
+        },
+        {
+          "text": "Quiero terminar la conversación."
+        },
+        {
+          "text": "Voy a cambiar de tema."
+        },
+        {
+          "text": "Ya no necesito su ayuda."
+        },
+        {
+          "text": "Ya no quiero continuar con esa solicitud."
+        },
+        {
+          "text": "Ya no quiero continuar con esta conversación"
+        },
+        {
+          "text": "Ya no quiero seguir con esta conversación."
+        }
+      ],
+      "description": "Cambiar a un tema diferente."
+    },
+    {
+      "intent": "Bot_Control_Clarification",
+      "examples": [
+        {
+          "text": "A que te refieres?"
+        },
+        {
+          "text": "Creo que no entendi, puede repetirlo?"
+        },
+        {
+          "text": "Entendiste mal."
+        },
+        {
+          "text": "Eso no es lo que dije."
+        },
+        {
+          "text": "Eso no te estoy preguntando."
+        },
+        {
+          "text": "Explicame de nuevo."
+        },
+        {
+          "text": "Lo siento pero eso no es lo que estaba preguntando"
+        },
+        {
+          "text": "Lo siento, puedes repetirlo una vez mas."
+        },
+        {
+          "text": "Lo siento, una vez mas."
+        },
+        {
+          "text": "Me puedes dar mas información?"
+        },
+        {
+          "text": "No entendi."
+        },
+        {
+          "text": "No entendiste lo que dije."
+        },
+        {
+          "text": "No estoy seguro si entendi, podría explicarme nuevamente?"
+        },
+        {
+          "text": "No respondiste a mi pregunta."
+        },
+        {
+          "text": "No te entiendo muy bien."
+        },
+        {
+          "text": "Podemos dar un paso atrás?"
+        },
+        {
+          "text": "Podriamos empezar de nuevo?"
+        },
+        {
+          "text": "Puede explicarme nuevamente, no entendí."
+        },
+        {
+          "text": "Que quieres decir con eso?"
+        },
+        {
+          "text": "Recapitulemos"
+        }
+      ],
+      "description": "Repita o aclare la última declaración."
+    },
+    {
+      "intent": "Bot_Control_Confirm_Presence",
+      "examples": [
+        {
+          "text": "A dónde te has ido?"
+        },
+        {
+          "text": "Alguien allí?"
+        },
+        {
+          "text": "Alguien esta ahí?"
+        },
+        {
+          "text": "Creo que hemos perdido la conexión."
+        },
+        {
+          "text": "Dónde estás?"
+        },
+        {
+          "text": "Estás allá?"
+        },
+        {
+          "text": "Estas todavía allí?"
+        },
+        {
+          "text": "Estoy hablando con alguien?"
+        },
+        {
+          "text": "Hablame si estas ahi"
+        },
+        {
+          "text": "Me has dejado en espera."
+        },
+        {
+          "text": "Me has escuchado?"
+        },
+        {
+          "text": "Necesitas mas tiempo?"
+        },
+        {
+          "text": "No te escucho"
+        },
+        {
+          "text": "Porque no me respondes?"
+        },
+        {
+          "text": "Que esta pasando?"
+        },
+        {
+          "text": "Que te has hecho?"
+        },
+        {
+          "text": "Quien esta ahi?"
+        },
+        {
+          "text": "Te he perdido."
+        },
+        {
+          "text": "Todavia estas en línea?"
+        }
+      ],
+      "description": "Pídale al bot que indique que está disponible."
+    },
+    {
+      "intent": "Bot_Control_Ignore_Undo",
+      "examples": [
+        {
+          "text": "Creo que quiero algo difertente."
+        },
+        {
+          "text": "Eso no es lo que estoy diciendo."
+        },
+        {
+          "text": "Eso no es lo que quiero."
+        },
+        {
+          "text": "Espera, estamos hablando de cosas diferentes."
+        },
+        {
+          "text": "Esto no es lo que quiero."
+        },
+        {
+          "text": "He cambiado de opinion."
+        },
+        {
+          "text": "Lo dire nuevamente."
+        },
+        {
+          "text": "Me he dado cuenta que eso no es lo que estoy buscando."
+        },
+        {
+          "text": "No entendiste, iniciemos de nuevo."
+        },
+        {
+          "text": "No entendiste, olvídalo."
+        },
+        {
+          "text": "No es correcto, olvídalo."
+        },
+        {
+          "text": "No es lo que estoy buscando."
+        },
+        {
+          "text": "Olvidalo."
+        },
+        {
+          "text": "Olvídalo, no entendiste."
+        },
+        {
+          "text": "Quieres que te lo repita?"
+        },
+        {
+          "text": "Te lo voy a repetir."
+        },
+        {
+          "text": "Volvamos a iniciar."
+        },
+        {
+          "text": "Volvamos al tema anterior."
+        },
+        {
+          "text": "Volvamos al tema inicial."
+        },
+        {
+          "text": "Volvamos un paso atrás."
+        }
+      ],
+      "description": "Pídale al bot que retroceda un paso."
+    },
+    {
+      "intent": "Bot_Control_Reject_Response",
+      "examples": [
+        {
+          "text": "De qué estas hablando?"
+        },
+        {
+          "text": "Esa repuesta no es correcta."
+        },
+        {
+          "text": "Es la respuesta equivocada."
+        },
+        {
+          "text": "Eso no me ayuda."
+        },
+        {
+          "text": "Estas equivocado."
+        },
+        {
+          "text": "La respuesta es incorrecta."
+        },
+        {
+          "text": "No comprendiste nada."
+        },
+        {
+          "text": "No entendiste la clave."
+        },
+        {
+          "text": "No entiendo."
+        },
+        {
+          "text": "No entiendo lo que dices."
+        },
+        {
+          "text": "No es lo que estoy preguntando."
+        },
+        {
+          "text": "No es lo que he estado buscando."
+        },
+        {
+          "text": "No es lo que pienso."
+        },
+        {
+          "text": "No estas entendiendo lo que dije."
+        },
+        {
+          "text": "No es una buena repuesta."
+        },
+        {
+          "text": "No me estas entendiendo."
+        },
+        {
+          "text": "No necesito eso."
+        },
+        {
+          "text": "No te entiendo nada."
+        },
+        {
+          "text": "Que dices?"
+        },
+        {
+          "text": "Sobre que me estas hablando?"
+        }
+      ],
+      "description": "Indique que la respuesta del bot no responde a una pregunta."
+    },
+    {
+      "intent": "Bot_Control_Standby",
+      "examples": [
+        {
+          "text": "Continuamos en unos minutos?"
+        },
+        {
+          "text": "Dame mas tiempo, no tengo la información aca."
+        },
+        {
+          "text": "Dame un momento."
+        },
+        {
+          "text": "Dame unos minutos."
+        },
+        {
+          "text": "Dejame para que lo reviso."
+        },
+        {
+          "text": "Esperame en línea."
+        },
+        {
+          "text": "Esperame un segundo."
+        },
+        {
+          "text": "Necesito un momento."
+        },
+        {
+          "text": "No tengo la informacion aquí, puedes esperarme?"
+        },
+        {
+          "text": "Podemos hablar mas tarde?"
+        },
+        {
+          "text": "Podemos terminar mas tarde."
+        },
+        {
+          "text": "Puedes darme un momento?"
+        },
+        {
+          "text": "Puedes esperarme"
+        },
+        {
+          "text": "Puedes esperarme un segundo."
+        },
+        {
+          "text": "Regreso ahora?"
+        },
+        {
+          "text": "Regreso ahora."
+        },
+        {
+          "text": "Regreso en un momento."
+        },
+        {
+          "text": "Regreso mas tarde."
+        },
+        {
+          "text": "Te pongo en espera un momento."
+        },
+        {
+          "text": "Ya regreso."
+        }
+      ],
+      "description": "Indique un retraso en la entrada del bot"
+    },
+    {
+      "intent": "Bot_Control_Start_Over",
+      "examples": [
+        {
+          "text": "Empecemos de nuevo."
+        },
+        {
+          "text": "Empezamos nuevamente?"
+        },
+        {
+          "text": "Iniciamos de nuevo?"
+        },
+        {
+          "text": "Iniciamos una vez mas?"
+        },
+        {
+          "text": "Iniciemos de nuevo."
+        },
+        {
+          "text": "Lo intentamos otra vez?"
+        },
+        {
+          "text": "Necesito que comencemos de nuevo."
+        },
+        {
+          "text": "Podemos intentarlo una vez mas?"
+        },
+        {
+          "text": "Podemos repetir todo desde el inicio?"
+        },
+        {
+          "text": "Podemos volver a la conversacion inicial?"
+        },
+        {
+          "text": "Podemos volver al punto inicial?"
+        },
+        {
+          "text": "Por favor, podemos empezar de nuevo?"
+        },
+        {
+          "text": "Puede repetir desde el inicio?"
+        },
+        {
+          "text": "Quiero ver todo desde el inicio."
+        },
+        {
+          "text": "Quiero volver al inicio"
+        },
+        {
+          "text": "Reiniciemos."
+        },
+        {
+          "text": "Una vez mas."
+        },
+        {
+          "text": "Volvamos a la conversación."
+        },
+        {
+          "text": "Volvamos al inicio."
+        },
+        {
+          "text": "Yo quiero iniciar de nuevo"
+        }
+      ],
+      "description": "Reinicia el bot"
+    },
+    {
+      "intent": "Bot_Control_Unsure",
+      "examples": [
+        {
+          "text": "Aclarame que deseas."
+        },
+        {
+          "text": "Aclarame que necesitas."
+        },
+        {
+          "text": "Dame una pista."
+        },
+        {
+          "text": "No entendí que es lo que necesitas."
+        },
+        {
+          "text": "No entiendo que es lo que necesitas."
+        },
+        {
+          "text": "No estoy contenta con tu respuesta."
+        },
+        {
+          "text": "No estoy convencida."
+        },
+        {
+          "text": "No estoy muy convencida."
+        },
+        {
+          "text": "No estoy segura de lo que necesitas."
+        },
+        {
+          "text": "No he entendido."
+        },
+        {
+          "text": "No me convences con tu respuesta."
+        },
+        {
+          "text": "No se que buscas."
+        },
+        {
+          "text": "No se que necesitas."
+        },
+        {
+          "text": "No se que quieres."
+        },
+        {
+          "text": "No tengo idea de lo que pides."
+        },
+        {
+          "text": "Para ser sincero, no has entendido."
+        },
+        {
+          "text": "Que es lo que buscas?"
+        },
+        {
+          "text": "Que es lo que estás buscando?"
+        },
+        {
+          "text": "Que quieres decir?"
+        },
+        {
+          "text": "Siendo honesto, no entendí."
+        }
+      ],
+      "description": "Indique que no hay una respuesta definitiva a una pregunta."
+    },
+    {
+      "intent": "Cierres_Escuelas_COVID",
+      "examples": [
+        {
+          "text": "¿Cómo afectará el cierre los registros de asistencia de mi hijo?"
+        },
+        {
+          "text": "¿Cómo puedo obtener las últimas noticias sobre el cierre de mi escuela?"
+        },
+        {
+          "text": "¿Cuándo abrirán las escuelas?"
+        },
+        {
+          "text": "¿Debería mi hijo quedarse en casa y no irse a la escuela?"
+        },
+        {
+          "text": "¿están abiertas las escuelas?"
+        },
+        {
+          "text": "¿Los estudiantes aún se graduarán este año?"
+        },
+        {
+          "text": "¿Puede mi hijo ir a la escuela?"
+        },
+        {
+          "text": "¿Qué significa el cierre escolar ordenado para las boletas de calificaciones?"
+        },
+        {
+          "text": "¿Qué sucede después de que finaliza el período de cierre ordenado de tres semanas?"
+        },
+        {
+          "text": "¿Se cierran las escuelas?"
+        }
+      ],
+      "description": "Información sobre escuelas locales."
+    },
+    {
+      "intent": "Cierres_Eventos_COVID",
+      "examples": [
+        {
+          "text": "¿Cómo sé si mi concierto fue cancelado?"
+        },
+        {
+          "text": "¿Cuál es el número máximo de personas que pueden reunirse en este momento?"
+        },
+        {
+          "text": "¿Cuándo se celebrarán los campeonatos de la NCAA?"
+        },
+        {
+          "text": "¿Cuándo volverá el NHL?"
+        },
+        {
+          "text": "¿Debería sentirme seguro yendo al cine?"
+        },
+        {
+          "text": "eventos y grandes reuniones"
+        },
+        {
+          "text": "¿Por qué el gobierno está cerrando mi evento?"
+        },
+        {
+          "text": "¿Qué deportes se están cancelando?"
+        },
+        {
+          "text": "¿Recibiré un reembolso por un boleto que compré?"
+        },
+        {
+          "text": "¿Se están cerrando los eventos?"
+        },
+        {
+          "text": "¿Se permite que grupos de personas se reúnan?"
+        }
+      ],
+      "description": "Información sobre eventos y grupos grandes."
+    },
+    {
+      "intent": "Descripción_COVID",
+      "examples": [
+        {
+          "text": "¿Cómo se transmite COVID-19?"
+        },
+        {
+          "text": "¿De dónde vino el coronavirus?"
+        },
+        {
+          "text": "¿Es el coronavirus lo mismo que el SARS?"
+        },
+        {
+          "text": "¿Es el coronavirus lo mismo que MERS?"
+        },
+        {
+          "text": "¿Es el coronavirus lo mismo que un resfriado?"
+        },
+        {
+          "text": "¿Qué es COVID-19?"
+        },
+        {
+          "text": "¿qué es el coronavirus?"
+        },
+        {
+          "text": "¿qué es el nuevo coronavirus?"
+        },
+        {
+          "text": "¿Qué tan peligroso es esto?"
+        },
+        {
+          "text": "¿Se ha identificado la causa de COVID-19?"
+        }
+      ],
+      "description": "Descripción general de Covid 19."
+    },
+    {
+      "intent": "Limpieza_Desinfección_COVID",
+      "examples": [
+        {
+          "text": "¿Cómo limpio mi casa correctamente?"
+        },
+        {
+          "text": "cómo me deshago de los gérmenes en mi casa?"
+        },
+        {
+          "text": "¿Con qué frecuencia necesito limpiar mi casa para evitar la propagación del coronavirus?"
+        },
+        {
+          "text": "¿Cuál es la diferencia entre limpiar y desinfectar?"
+        },
+        {
+          "text": "¿Debo rociarme a mí o a mis hijos con desinfectante?"
+        },
+        {
+          "text": "¿El alcohol mata al coronavirus?"
+        },
+        {
+          "text": "¿Hay desinfectantes disponibles que puedan inactivar o matar COVID-19?"
+        },
+        {
+          "text": "¿Necesito toallitas lysol?"
+        },
+        {
+          "text": "¿Qué métodos de limpieza matan el coronavirus?"
+        },
+        {
+          "text": "¿Tengo que usar lejía o cloro para matar el coronavirus?"
+        },
+        {
+          "text": "Todas las tiendas no tienen toallitas desinfectantes, ¿qué hago?"
+        }
+      ],
+      "description": "Cómo limpiar y desinfectar."
+    },
+    {
+      "intent": "Nombre",
+      "examples": [
+        {
+          "text": "Carlos para los amigos"
+        },
+        {
+          "text": "Me dicen Daniel"
+        },
+        {
+          "text": "Me llamo Guillermo"
+        },
+        {
+          "text": "Mi nombre es Adrian"
+        },
+        {
+          "text": "Mis amigos me dicen Nadia"
+        }
+      ]
+    },
+    {
+      "intent": "Protección_Infección_COVID",
+      "examples": [
+        {
+          "text": "¿Cómo evito covid-19?"
+        },
+        {
+          "text": "¿Cómo evito que me enferme?"
+        },
+        {
+          "text": "¿cómo me aseguro de que mi familia esté segura?"
+        },
+        {
+          "text": "¿Cómo me protejo?"
+        },
+        {
+          "text": "Cómo prevenir la propagación del virus"
+        },
+        {
+          "text": "¿Cómo puedo proteger a mi familia de la propagación del coronavirus?"
+        },
+        {
+          "text": "¿Con qué frecuencia debo lavarme las manos?"
+        },
+        {
+          "text": "¿Cuál es el riesgo de que mi hijo se enferme con COVID-19?"
+        },
+        {
+          "text": "¿Cuál es la mejor manera de prevenir el coronavirus?"
+        },
+        {
+          "text": "¿Es posible evitar el virus?"
+        },
+        {
+          "text": "¿Necesito usar una máscara facial?"
+        },
+        {
+          "text": "prevenir la propagación del virus"
+        },
+        {
+          "text": "qué debo hacer para contener la propagación del virus"
+        }
+      ],
+      "description": "Cómo prevenir la infección."
+    },
+    {
+      "intent": "Recuento_Casos_COVID",
+      "examples": [
+        {
+          "text": "¿alguien murió de coronavirus en mi estado?"
+        },
+        {
+          "text": "¿cuál es el recuento de personas infectadas con coronavirus?"
+        },
+        {
+          "text": "¿cuántas personas están enfermas en los Estados Unidos?"
+        },
+        {
+          "text": "¿cuántas personas están infectadas en los Estados Unidos?"
+        },
+        {
+          "text": "¿Cuántos casos de coronavirus hay en mi área?"
+        },
+        {
+          "text": "¿Cuántos casos de COVID-19 hay en los Estados Unidos?"
+        },
+        {
+          "text": "¿Cuántos casos del virus hay en el mundo?"
+        },
+        {
+          "text": "¿Dónde están los casos?"
+        },
+        {
+          "text": "¿hay alguien cerca de mí enfermo?"
+        },
+        {
+          "text": "¿Hay algún caso cerca de mí?"
+        },
+        {
+          "text": "¿MA tiene un caso COVID confirmado?"
+        },
+        {
+          "text": "número de casos de covid en mi estado?"
+        },
+        {
+          "text": "¿Tiene EE. UU. un caso COVID confirmado?"
+        }
+      ],
+      "description": "Información sobre el número de casos de Covid 19"
+    },
+    {
+      "intent": "Respuesta_Negativa",
+      "examples": [
+        {
+          "text": "Estoy mal"
+        },
+        {
+          "text": "He estado peor"
+        },
+        {
+          "text": "Mal"
+        },
+        {
+          "text": "Me siento fatal"
+        },
+        {
+          "text": "Me siento terrible"
+        },
+        {
+          "text": "Nada bien"
+        },
+        {
+          "text": "Nada esta bien"
+        },
+        {
+          "text": "Nada esta super"
+        },
+        {
+          "text": "Nada va bien"
+        },
+        {
+          "text": "No estoy bien"
+        },
+        {
+          "text": "No hay nada asombroso"
+        },
+        {
+          "text": "No hay nada bueno en mi vida"
+        },
+        {
+          "text": "No hay nada positivo en mi vida"
+        },
+        {
+          "text": "No tengo nada bueno"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Respuesta_Positiva",
+      "examples": [
+        {
+          "text": "Bien"
+        },
+        {
+          "text": "Increible"
+        },
+        {
+          "text": "Me siento genial"
+        },
+        {
+          "text": "Nada esta mal"
+        },
+        {
+          "text": "Nada mal"
+        },
+        {
+          "text": "Nada va mal"
+        },
+        {
+          "text": "No hay nada malo"
+        },
+        {
+          "text": "No me ha pasado nada malo"
+        },
+        {
+          "text": "Super"
+        },
+        {
+          "text": "Todo va bien"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Restricciones_de_Viaje_COVID",
+      "examples": [
+        {
+          "text": "Acabo de viajar. ¿Qué hago?"
+        },
+        {
+          "text": "¿Debo cancelar mi vuelo a Denver?"
+        },
+        {
+          "text": "¿Es seguro volar a Seattle?"
+        },
+        {
+          "text": "¿Hay restricciones de viaje vigentes todavía?"
+        },
+        {
+          "text": "necesito quedarme en casa"
+        },
+        {
+          "text": "¿Necesito una nota del médico para viajar?"
+        },
+        {
+          "text": "¿Puedo viajar?"
+        },
+        {
+          "text": "¿Qué sucede si necesito tomar un vuelo con urgencia?"
+        }
+      ],
+      "description": "Información sobre viajes durante la pandemia de Covid 19."
+    },
+    {
+      "intent": "Resultados_Prueba_COVID",
+      "examples": [
+        {
+          "text": "¿Cómo puedo obtener los resultados de mi prueba?"
+        },
+        {
+          "text": "¿Cuándo puedo obtener mis resultados?"
+        },
+        {
+          "text": "Ha pasado una semana. ¿A quién puedo llamar para obtener los resultados de mi examen?"
+        },
+        {
+          "text": "¿Los resultados de mi prueba llegan por correo?"
+        },
+        {
+          "text": "Mi médico aún no me ha devuelto los resultados de mi prueba"
+        },
+        {
+          "text": "¿Quién me dará los resultados de mi prueba del COVID?"
+        },
+        {
+          "text": "resultados de la prueba?"
+        }
+      ],
+      "description": "Cómo obtener los resultados de la prueba Covid 19."
+    },
+    {
+      "intent": "Saludo",
+      "examples": [
+        {
+          "text": "Buenas"
+        },
+        {
+          "text": "Hey, ¿cómo estas?"
+        },
+        {
+          "text": "Hola!"
+        },
+        {
+          "text": "¿Que tal?"
+        },
+        {
+          "text": "Que tal"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Síntomas_COVID",
+      "examples": [
+        {
+          "text": "¿Cómo sé si estoy enfermo?"
+        },
+        {
+          "text": "Creo que estoy infectado"
+        },
+        {
+          "text": "Creo que podría tener el virus."
+        },
+        {
+          "text": "debería hacerme la prueba de coronavirus"
+        },
+        {
+          "text": "¿debo hacerme la prueba de coronavirus si tengo tos?"
+        },
+        {
+          "text": "estoy enfermo"
+        },
+        {
+          "text": "He viajado recientemente. ¿Qué hago?"
+        },
+        {
+          "text": "¿Necesito hacerme la prueba de coronavirus?"
+        },
+        {
+          "text": "¿Qué son los síntomas?"
+        },
+        {
+          "text": "Viajé a Italia recientemente. ¿Qué hago?"
+        }
+      ],
+      "description": "Síntomas relacionados con Covid 19."
+    },
+    {
+      "intent": "Ubicaciones_Prueba_COVID",
+      "examples": [
+        {
+          "text": "¿Cómo me hago la prueba?"
+        },
+        {
+          "text": "¿Dónde encuentro la prueba de coronavirus?"
+        },
+        {
+          "text": "¿Dónde puedo hacerme la prueba?"
+        },
+        {
+          "text": "¿Puedo hacerme la prueba de coronavirus con mis médicos?"
+        },
+        {
+          "text": "¿Puedo hacerme la prueba en Walgreens?"
+        },
+        {
+          "text": "¿Puedo pruebarme en mi casa?"
+        },
+        {
+          "text": "¿ubicaciones de prueba?"
+        }
+      ],
+      "description": "Dónde hacerse la prueba para Covid 19."
+    }
+  ],
+  "entities": [
+    {
+      "entity": "Nombres",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Adrian",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Alejandra",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Alejandro",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Andrea",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Carlos",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Cristian",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Daniel",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Diana",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Eduardo",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Erick",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Ernesto",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Gabriel",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Gabriela",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Guillermo",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Ignacio",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Isaac",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Isai",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Javier",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Joel",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Jose",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Karina",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Maria",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Moises",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "nadia",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Paul",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "Respuesta_Negativa",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Mal",
+          "synonyms": [
+            "fatal",
+            "Peor",
+            "Terrible"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Morir",
+          "synonyms": [
+            "Ahorcar",
+            "Colgar",
+            "Cortar",
+            "Matar",
+            "Suicidar"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Nada",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Nada bien",
+          "synonyms": [
+            "Nada super"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Odian",
+          "synonyms": [
+            "Detestan"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "Respuesta_Positiva",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Bien",
+          "synonyms": [
+            "Asombroso",
+            "Estupendo",
+            "Fenomenal",
+            "Genial",
+            "Grandioso",
+            "Increible",
+            "Super"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "Saludo",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Hola",
+          "synonyms": [
+            "Buenas noches",
+            "Buenas tardes",
+            "Buenos dias",
+            "Hey",
+            "Holi",
+            "Koiña"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    }
+  ],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    },
+    "from-sample": true
+  },
+  "dialog_nodes": [
+    {
+      "type": "standard",
+      "title": "Bienvenido",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hola. ¿Cómo puedo ayudarle?"
+              },
+              {
+                "text": "Hola, ¿Como te encuentras?"
+              },
+              {
+                "text": "Buenos días, ¿Como estas?"
+              },
+              {
+                "text": "Buen día, ¿Como estas?"
+              },
+              {
+                "text": "Buenos días, ¿Como te encuentras?"
+              },
+              {
+                "text": "Hola, ¿Como estas?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "conditions": "#Saludo",
+      "dialog_node": "Bienvenido",
+      "previous_sibling": "node_8_1598758376982"
+    },
+    {
+      "type": "standard",
+      "title": "En otras cosas",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "No le he entendido. Intente reformular la consulta."
+              },
+              {
+                "text": "¿Puede expresarse con otras palabras? No le he entendido."
+              },
+              {
+                "text": "No entendí el significado."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "anything_else",
+      "dialog_node": "En otras cosas",
+      "previous_sibling": "Bienvenido",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_4_1598766971537",
+      "event_name": "focus",
+      "dialog_node": "handler_10_1598766971547",
+      "previous_sibling": "handler_2_1598766971547"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_1_1598767521698",
+      "context": {
+        "Nombre": "@Nombres"
+      },
+      "conditions": "@Nombres",
+      "event_name": "input",
+      "dialog_node": "handler_1_1598767521706"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_4_1598766971537",
+      "event_name": "input",
+      "dialog_node": "handler_2_1598766971547"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_9_1598769719393",
+      "event_name": "focus",
+      "dialog_node": "handler_3_1598769719396",
+      "previous_sibling": "handler_8_1598769719396"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "No detecte un nombre, vuelve a intentar"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_1_1598767521698",
+      "event_name": "focus",
+      "dialog_node": "handler_5_1598767521706",
+      "previous_sibling": "handler_1_1598767521706"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_9_1598769162582",
+      "event_name": "focus",
+      "dialog_node": "handler_7_1598769162590",
+      "previous_sibling": "handler_8_1598769162590"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_9_1598769162582",
+      "context": {
+        "Estado_Emocional": "@Respuesta_Negativa"
+      },
+      "conditions": "@Respuesta_Negativa",
+      "event_name": "input",
+      "dialog_node": "handler_8_1598769162590"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_9_1598769719393",
+      "context": {
+        "Estado_Emocional": "@Respuesta_Positiva"
+      },
+      "conditions": "@Respuesta_Positiva",
+      "event_name": "input",
+      "dialog_node": "handler_8_1598769719396"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "¿Qué vamos a hacer hoy?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "slot_9_1598769719393",
+      "conditions": "#Respuesta_Positiva",
+      "event_name": "filled",
+      "dialog_node": "handler_8_1598769746812",
+      "previous_sibling": "handler_3_1598769719396"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "¿Por qué te sientes $Estado_Emocional ?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_9_1598769162582",
+      "conditions": "#Respuesta_Negativa",
+      "event_name": "filled",
+      "dialog_node": "handler_9_1598769892555",
+      "previous_sibling": "handler_7_1598769162590"
+    },
+    {
+      "type": "frame",
+      "title": "Obtener_Nombre",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hola $Nombre"
+              },
+              {
+                "text": "¿Como te sientes el día de hoy?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_8_1598758376982",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_5_1598768986622"
+      },
+      "conditions": "#Nombre",
+      "dialog_node": "node_1_1598766279878",
+      "previous_sibling": "slot_4_1598766971537"
+    },
+    {
+      "type": "standard",
+      "title": "Estado Emocional",
+      "conditions": "$Estado_Emocional",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_3_1598769987970",
+      "previous_sibling": "En otras cosas"
+    },
+    {
+      "type": "frame",
+      "title": "Obtener_Estado_Emocional",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1598758376982",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_3_1598769987970"
+      },
+      "conditions": "#Respuesta_Negativa || #Respuesta_Positiva",
+      "dialog_node": "node_5_1598768986622",
+      "previous_sibling": "node_1_1598766279878"
+    },
+    {
+      "type": "standard",
+      "title": "Respuesta Positiva",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Me alegra que estes bien!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_5_1598768986622",
+      "conditions": "#Respuesta_Positiva && @Respuesta_Positiva &&    @Respuesta_Negativa != \"Mal\" && @Respuesta_Negativa != \"Nada\"",
+      "dialog_node": "node_7_1598758997152",
+      "previous_sibling": "slot_9_1598769719393"
+    },
+    {
+      "type": "frame",
+      "title": "Primera Vez",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Buenos dias!"
+              },
+              {
+                "text": "¿Cómo te llamas?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          },
+          {
+            "query": "",
+            "filter": "",
+            "query_type": "natural_language",
+            "response_type": "search_skill"
+          }
+        ]
+      },
+      "conditions": "welcome",
+      "dialog_node": "node_8_1598758376982"
+    },
+    {
+      "type": "standard",
+      "title": "Respuesta Negativa",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "¿En que podemos ayudarte?"
+              },
+              {
+                "text": "¿Cómo te puedo apoyar?"
+              },
+              {
+                "text": "¿Cómo te puedo ayudar?"
+              },
+              {
+                "text": "¿Por qué te sientes mal?"
+              },
+              {
+                "text": "¿Por qué te sientes así?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_5_1598768986622",
+      "conditions": "#Respuesta_Negativa && @Respuesta_Negativa",
+      "dialog_node": "node_9_1598759530887",
+      "previous_sibling": "node_7_1598758997152"
+    },
+    {
+      "type": "slot",
+      "parent": "node_1_1598766279878",
+      "variable": "$Nombre",
+      "dialog_node": "slot_1_1598767521698"
+    },
+    {
+      "type": "slot",
+      "parent": "node_8_1598758376982",
+      "dialog_node": "slot_4_1598766971537"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_5_1598768986622",
+      "variable": "$Estado_Emocional",
+      "dialog_node": "slot_9_1598769162582"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_5_1598768986622",
+      "variable": "$Estado_Emocional",
+      "dialog_node": "slot_9_1598769719393",
+      "previous_sibling": "slot_9_1598769162582"
+    }
+  ],
+  "counterexamples": [],
+  "system_settings": {
+    "disambiguation": {
+      "prompt": "Querías decir:",
+      "enabled": true,
+      "randomize": true,
+      "max_suggestions": 5,
+      "suggestion_text_policy": "title",
+      "none_of_the_above_prompt": "Ninguna de las anteriores"
+    },
+    "system_entities": {
+      "enabled": true
+    },
+    "human_agent_assist": {
+      "prompt": "Querías decir:"
+    }
+  },
+  "learning_opt_out": false,
+  "name": "hackMTY",
+  "language": "es",
+  "description": ""
+}
